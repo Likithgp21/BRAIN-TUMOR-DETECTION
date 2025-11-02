@@ -29,15 +29,25 @@ o	Final Activation: LogSigmoid
 **Brain_Tumor_Detection**/
 │
 ├── app.py                      # Flask app (main backend)
+
 ├── models/
+
 │   └── bt_resnet50_model.pt    # Trained ResNet50 model
+
 ├── static/
+
 │   └── photos/                 # Uploaded MRI images
+
 ├── templates/
+
 │   ├── DiseaseDet.html         # Home page
+
 │   ├── uimg.html               # Upload page
+
 │   ├── pred.html               # Prediction result
+
 │   └── error.html              # Error handling
+
 ├── requirements.txt
 └── README.md
 
