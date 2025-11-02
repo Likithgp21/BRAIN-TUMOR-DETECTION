@@ -15,13 +15,14 @@ ________________________________________
 ________________________________________
 **🧠 Model Architecture**
 
-•	Base Model: ResNet50 (pretrained on ImageNet)
-•	Modified Layers:
+1.	Base Model: ResNet50 (pretrained on ImageNet)
+2.	Modified Layers:
 o	Fully connected layers replaced with custom dense layers
 o	Activation: SELU
 o	Regularization: Dropout (p=0.4)
 o	Output: 4 neurons (for 4 tumor classes)
 o	Final Activation: LogSigmoid
-•	Model File: bt_resnet50_model.pt
+3.	Model File: bt_resnet50_model.pt
+
 
 
